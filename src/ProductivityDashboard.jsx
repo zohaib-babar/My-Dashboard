@@ -395,8 +395,8 @@ export default function ProductivityDashboard() {
 
         {/* Habits + Timer + Weekly */}
         <div className="grid3" style={{ gap: 10, marginBottom: 16 }}>
-//           {/* Habits */}
-//           <div style={{ ...styles.card, gridColumn: "span 2" }}>
+          {/* Habits */}
+          <div style={{ ...styles.card, gridColumn: "span 2" }}>
             <div style={styles.habitsHeader}>
               <span style={styles.habitsHeaderSpan}>Daily Habits — This Week</span>
               <span style={styles.habitsHeaderSpan}>{getWeekRange()}</span>
